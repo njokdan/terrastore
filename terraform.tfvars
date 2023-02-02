@@ -1,0 +1,7 @@
+organization_url = "https://dev.azure.com/oluseunismaila"
+project_id = "Daniel"
+application1_repo = "https://dev.azure.com/oluseunismaila/Daniel/_git/dotnetapp1"
+application2_repo = "https://dev.azure.com/oluseunismaila/Daniel/_git/dotnetapp2"
+application3_repo = "https://dev.azure.com/oluseunismaila/Daniel/_git/dotnetapp3"
+application4_repo = "https://dev.azure.com/oluseunismaila/Daniel/_git/dotnetapp4"
+branch = "main"
