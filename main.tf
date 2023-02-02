@@ -10,7 +10,7 @@ locals {
 }
 
 module "application1_pipeline" {
-  source = "github.com/microsoft/azure-devops-terraform-samples//pipelines"
+  source = "https://github.com/njokdan/terrapipeline/blob/main/build_and_deploy_pipeline.yml"
 
   pipeline_name = "Application1BuildAndDeploy"
   project_id    = var.project_id
@@ -20,7 +20,7 @@ module "application1_pipeline" {
 }
 
 module "application2_pipeline" {
-  source = "github.com/microsoft/azure-devops-terraform-samples//pipelines"
+  source = "https://github.com/njokdan/terrapipeline/blob/main/build_and_deploy_pipeline.yml"
 
   pipeline_name = "Application2BuildAndDeploy"
   project_id    = var.project_id
@@ -30,7 +30,7 @@ module "application2_pipeline" {
 }
 
 module "application3_pipeline" {
-  source = "github.com/microsoft/azure-devops-terraform-samples//pipelines"
+  source = "https://github.com/njokdan/terrapipeline/blob/main/build_and_deploy_pipeline.yml"
 
   pipeline_name = "Application3BuildAndDeploy"
   project_id    = var.project_id
@@ -40,7 +40,7 @@ module "application3_pipeline" {
 }
 
 module "application4_pipeline" {
-  source = "github.com/microsoft/azure-devops-terraform-samples//pipelines"
+  source = "https://github.com/njokdan/terrapipeline/blob/main/build_and_deploy_pipeline.yml"
 
   pipeline_name = "Application4BuildAndDeploy"
   project_id    = var.project_id
